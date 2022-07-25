@@ -1,0 +1,36 @@
+.blip__footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  background: var(--color-footer);
+
+  padding: 50px 0;
+}
+
+.blip__footer_logo {
+  display: flex;
+  flex-direction: column;
+}
+
+.blip__footer_logo img {
+  width: 30%;
+  height: 30%;
+
+  margin-bottom: 1rem;
+}
+
+.blip__footer-copyright {
+  margin-top: 2rem;
+
+  width: 100%;
+}
+
+.blip__footer-copyright p {
+  font-size: 12px;
+  font-family: var(--font-family);
+  line-height: 15px;
+  color: #000;
+  text-align: center;
+}
