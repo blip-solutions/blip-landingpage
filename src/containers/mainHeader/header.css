@@ -1,6 +1,9 @@
 .blip__header {
   display: flex;
   flex-direction: row;
+  overflow: hidden;
+  width: 100%;
+  min-height: 95vh;
 }
 
 .blip__header-content {
@@ -22,21 +25,21 @@
 }
 
 .blip__header-content p {
-  font-family: var(--font-family);
+  font-family: "Courier New";
   font-weight: 400;
   font-size: 18px;
   line-height: 28px;
-  color: var(--color-text);
-
+  color: rgb(94, 94, 94);
+  font-weight: 800;
   margin-top: 1.5rem;
   margin-bottom: 0.5rem;
 }
 
 .blip__header-sign button,
 .blip__header-content button {
-  padding: 0.5rem 1rem;
+  padding: 0.8rem 1.5rem;
   color: #fff;
-  background: #ff4820;
+  background: rgb(255, 0, 212);
   font-family: var(--font-family);
   font-weight: 500;
   font-size: 18px;
@@ -44,19 +47,26 @@
   border: none;
   outline: none;
   cursor: pointer;
-  border-radius: 5px;
+  border-radius: 45px;
 }
 
 .blip__header-image {
+  
   flex: 1;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  justify-content: end;
+  align-items: flex-start; 
+  padding-left: 0%;
+  margin-right:-150px;
+  overflow: hidden;
+  min-width: 600px;
+  
 }
 
 .blip__header-image img {
   width: 100%;
-  height: 100%;
+  max-width: 700px;
+  height:auto;
 }
 
 /*@media screen and (max-width: 1050px) {
@@ -69,7 +79,7 @@
   }
 }*/
 
-@media screen and (max-width: 650px) {
+@media screen and (max-width: 1100px) {
   .blip__header-content h1 {
     font-size: 48px;
     line-height: 60px;
@@ -89,7 +99,7 @@
   }
 }
 
-@media screen and (max-width: 490px) {
+@media screen and (max-width: 900px) {
   .blip__header-content h1 {
     font-size: 36px;
     line-height: 48px;
@@ -98,5 +108,20 @@
   .blip__header-content p {
     font-size: 14px;
     line-height: 24px;
+  }
+
+  .blip__header {
+    flex-direction: column;
+  }
+  .blip__header-image {
+    width: 40%;
+    align-self: end;
+    margin-top: -20px;
+    padding-left: 30%;
+    margin-right: -130px;
+  }
+  .blip__header-image img {
+    width: auto;
+    height:400px;
   }
 }
