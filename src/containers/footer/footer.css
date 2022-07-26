@@ -6,7 +6,7 @@
 
   background: var(--color-footer);
 
-  padding: 50px 0;
+  padding: 50px 20px;
 }
 
 .blip__footer_logo {
@@ -15,14 +15,14 @@
 }
 
 .blip__footer_logo img {
-  width: 30%;
-  height: 30%;
+  width:auto;
+  height: 40px;
 
   margin-bottom: 1rem;
 }
 
 .blip__footer-copyright {
-  margin-top: 2rem;
+  
 
   width: 100%;
 }

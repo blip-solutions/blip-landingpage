@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+
+<!-- Created with Vectornator (http://vectornator.io/) -->
+<svg height="100%" stroke-miterlimit="10" style="fill-rule:nonzero;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;" version="1.1" viewBox="0 0 424.707 312.499" width="100%"  xmlns="http://www.w3.org/2000/svg">
+
+<defs>
+<linearGradient gradientTransform="matrix(0.836996 0 0 0.836996 -150.8 -47.6094)" gradientUnits="userSpaceOnUse" id="LinearGradient" x1="578.953" x2="305.881" y1="52.4367" y2="415.559">
+<stop offset="0" stop-color="#e000ff"/>
+<stop offset="1" stop-color="#fb871e"/>
+</linearGradient>
+</defs>
+<g id="Layer-1" >
+<path d="M103.863 65.8003C124.725 49.6269 204.699 2.891 257.029 2.43578C309.359 1.98057 384.445 31.8388 401.166 115.59L401.166 115.59C417.888 199.341 423.207 214.361 362.385 261.335C301.564 308.309 244.281 316.675 157.88 303.486C71.4802 290.298 32.8353 276.221 16.1135 192.47L16.1135 192.47C-0.608371 108.719 83.0016 81.9736 103.863 65.8003Z" fill="url(#LinearGradient)" fill-rule="evenodd" opacity="1" stroke="none"/>
+</g>
+</svg>

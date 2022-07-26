@@ -1,0 +1,26 @@
+.contact-root{
+    min-height: 90vh;
+    flex: 1;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-root p, div{
+    
+    color: #000;
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 25px;
+}
+
+.contact-root .box{
+    position: relative;
+    margin-left: 5vh;
+    width: 80%;
+    max-width: 500px;
+    padding: 5vw;
+    top:30vh
+
+}

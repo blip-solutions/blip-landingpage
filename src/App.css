@@ -14,45 +14,26 @@ a {
   text-decoration: none;
 }
 
+
 .gradient__bg {
   /* ff 3.6+ */
-  background: -moz-linear-gradient(
-    90deg,
-    rgba(255, 255, 253, 1) 0%,
-    rgba(221, 202, 221, 1) 100%
-  );
+  background:
+  radial-gradient(farthest-side at bottom left,
+      rgba(157, 98, 155, 0.5),
+      transparent 40%),
+  radial-gradient(farthest-corner at bottom right,
+      rgba(225, 141, 141, 0.3),
+      transparent 30%),
+  radial-gradient(at 20% 10%,
 
-  /* safari 5.1+,chrome 10+ */
-  background: -webkit-linear-gradient(
-    90deg,
-    rgba(255, 255, 253, 1) 0%,
-    rgba(221, 202, 221, 1) 100%
-  );
+      rgb(243 136 40 / 24%),
+      transparent 20%),
+  radial-gradient(farthest-corner at top right,
+      rgba(179 54 179 / 33%),
+      transparent 30%);
 
-  /* opera 11.10+ */
-  background: -o-linear-gradient(
-    90deg,
-    rgba(255, 255, 253, 1) 0%,
-    rgba(221, 202, 221, 1) 100%
-  );
-
-  /* ie 6-9 */
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#DDCADD', endColorstr='#FFFFFD', GradientType=0 );
-
-  /* ie 10+ */
-  background: -ms-linear-gradient(
-    90deg,
-    rgba(255, 255, 253, 1) 0%,
-    rgba(221, 202, 221, 1) 100%
-  );
-
-  /* global 94%+ browsers support */
-  background: linear-gradient(
-    90deg,
-    rgba(255, 255, 253, 1) 0%,
-    rgba(221, 202, 221, 1) 100%
-  );
 }
+
 
 .gradient__text {
   background: var(--gradient-text);
@@ -67,6 +48,29 @@ a {
 
 .section__margin {
   margin: 4rem 6rem;
+}
+
+span.underline{
+  position: relative;
+  white-space: nowrap;
+  /* font-weight: 700;
+  text-underline-position: under;
+  text-decoration: rgb(255, 176, 92) solid underline;
+  text-underline-offset: -0.2em;
+  text-decoration-thickness:30% */
+}
+span.underline::before {
+  /* Highlight color */
+  background-color:   rgb(255, 176, 92) ; 
+  white-space: nowrap;
+  content: "";
+  position: absolute;
+  width: calc(100% + 4px);
+  height: 0.3em;
+  left: -2px;
+  bottom: 0;
+  z-index: -1;
+  transform: rotate(-1.0deg);
 }
 
 
